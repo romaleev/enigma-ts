@@ -5,3 +5,4 @@ dist
 BAK
 npm-debug.log
 src/**/*.js
+!src/config.js
