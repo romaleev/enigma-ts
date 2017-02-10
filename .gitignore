@@ -4,3 +4,4 @@ node_modules
 dist
 BAK
 npm-debug.log
+src/**/*.js

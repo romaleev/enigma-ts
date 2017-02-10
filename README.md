@@ -19,13 +19,13 @@ var Enigma = require('enigma-ts');
 
 var enigma = new Enigma('AAA');
 
-enigma.process('HELLO WORLD'); // BUNTU FISZJ
+enigma.process('HELLO WORLD'); // LMHNH TMAUA
 
 /**
 * Or with configuration
 * */
 
-var default_config ={
+var default_config = {
    rotors: [
 	   {'EKMFLGDQVZNTOWYHXUSPAIBRCJ': 'Q'},
 	   {'AJDKSIRUXBLHWTMCQGZNPYFVOE': 'E'},

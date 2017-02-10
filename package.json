@@ -2,7 +2,7 @@
 	"name": "enigma-ts",
 	"version": "0.0.1",
 	"description": "TypeScript Enigma Machine Implementation",
-	"main": "dist/Enigma.js",
+	"main": "index.js",
 	"keywords": ["enigma", "ts", "tsc", "typescript", "enigma-ts", "es6", "ecmascript", "babel", "tslint", "jasmine"],
 	"scripts": {
 		"test": "tslint --project tsconfig.json && NODE_PATH=dist babel-node unit-test",
