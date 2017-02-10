@@ -1,0 +1,19 @@
+{
+	"extends": "tslint:latest",
+	"rules": {
+		"quotemark": [true, "single", "avoid-escape"],
+		"ordered-imports": false,
+		"curly": false,
+		"no-unused-expression": [true, "allow-fast-null-checks"],
+		"indent": [true, "tabs"],
+		"variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+		"whitespace": [true, "check-decl", "check-operator", "check-module", "check-separator", "check-type", "check-typecast", "check-preblock"],
+		"object-literal-shorthand": true,
+		"object-literal-key-quotes": [true, "consistent-as-needed"],
+		"object-literal-sort-keys": false
+	},
+	"jsRules": {
+		"quotemark": [true, "single", "avoid-escape"],
+		"object-literal-sort-keys": false
+	}
+}
