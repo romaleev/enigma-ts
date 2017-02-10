@@ -1,28 +1,39 @@
 {
-	"name": "enigma-ts",
-	"version": "0.0.1",
-	"description": "TypeScript Enigma Machine Implementation",
-	"main": "index.js",
-	"keywords": ["enigma", "ts", "tsc", "typescript", "enigma-ts", "es6", "ecmascript", "babel", "tslint", "jasmine"],
-	"scripts": {
-		"test": "tslint --project tsconfig.json && NODE_PATH=dist babel-node unit-test",
-		"postinstall": "tsc"
-	},
-	"author": "Roman Malieiev <aromaleev@gmail.com>",
-	"license": "BSD-2-Clause",
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:romaleev/enigma-ts.git",
-		"private": false
-	},
-	"engines" : {
-		"node" : "6.x.x"
-	},
-	"devDependencies": {
-		"babel-cli": "6.x.x",
-		"babel-preset-node6": "11.x.x",
-		"typescript": "2.x.x",
-		"tslint": "4.x.x",
-		"jasmine": "2.x.x"
-	}
+  "name": "enigma-ts",
+  "version": "0.0.2",
+  "description": "TypeScript Enigma Machine Implementation",
+  "main": "index.js",
+  "keywords": [
+    "enigma",
+    "ts",
+    "tsc",
+    "typescript",
+    "enigma-ts",
+    "es6",
+    "ecmascript",
+    "babel",
+    "tslint",
+    "jasmine"
+  ],
+  "scripts": {
+    "test": "tslint --project tsconfig.json && NODE_PATH=dist babel-node unit-test",
+    "postinstall": "tsc"
+  },
+  "author": "Roman Malieiev <aromaleev@gmail.com>",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:romaleev/enigma-ts.git",
+    "private": false
+  },
+  "engines": {
+    "node": "6.x.x"
+  },
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-preset-node6": "11.x.x",
+    "typescript": "2.x.x",
+    "tslint": "4.x.x",
+    "jasmine": "2.x.x"
+  }
 }
