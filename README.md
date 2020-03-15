@@ -9,7 +9,7 @@ Work principle can be found [here](https://www.theguardian.com/technology/2014/n
 ## Install
 
 ```bash
-npm i enigma-ts
+npm install
 ```
 
 ## Usage
@@ -47,6 +47,5 @@ enigma.positions; // AAA
 ### Test
 
 ```bash
-npm i
 npm test
-``` 
+```

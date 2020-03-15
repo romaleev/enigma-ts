@@ -27,30 +27,33 @@ export default class Rotor {
 	get cypher() {
 		return this._cypher;
 	}
-	get turnLetter() {
-		return this._turnLetter;
-	}
-	get position() {
-		return getLetter(this._offset);
-	}
-	get autoTurn() {
-		return this._autoTurn;
-	}
-	get onTurn() {
-		return this._onTurn;
-	}
-
 	set cypher(cypher: string) {
 		this._cypher = cypher;
+	}
+
+	get turnLetter() {
+		return this._turnLetter;
 	}
 	set turnLetter(letter: string) {
 		this._turnLetter = letter;
 	}
-	set position(position) {
+
+	get position() {
+		return getLetter(this._offset);
+	}
+	set position(position: string) {
 		this._offset = getCode(position);
+	}
+
+	get autoTurn() {
+		return this._autoTurn;
 	}
 	set autoTurn(turn: boolean) {
 		this._autoTurn = turn;
+	}
+
+	get onTurn() {
+		return this._onTurn;
 	}
 	set onTurn(callback: () => void) {
 		this._onTurn = callback;

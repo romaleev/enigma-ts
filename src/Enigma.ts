@@ -12,9 +12,9 @@ interface IConfig {
 
 export default class Enigma {
 
+	private readonly plugboard?: Plugboard;
+	private readonly rotors: Rotor[];
 	private reflector: Reflector;
-	private plugboard?: Plugboard;
-	private rotors: Rotor[];
 
 	constructor(positions: string = 'AAA', config: IConfig = _config) {
 		Validate.positions(positions);
@@ -27,7 +27,7 @@ export default class Enigma {
 			this.plugboard = new Plugboard(plugboard);
 		}
 
-		this.rotors = rotors.map((cypher: {[key: string]: string}, i) =>
+		this.rotors = (rotors as Array<{[key: string]: string}>).map((cypher: {[key: string]: string}, i: number): Rotor =>
 			new Rotor(cypher, positions[i]));
 
 		Rotor.chainRotors(this.rotors);

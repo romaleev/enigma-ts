@@ -27,7 +27,7 @@
     "private": false
   },
   "engines": {
-    "node": "6.x.x"
+    "node": ">=6.x.x"
   },
   "devDependencies": {
     "babel-cli": "6.x.x",
