@@ -16,8 +16,7 @@
     "jasmine"
   ],
   "scripts": {
-    "test": "tslint --project tsconfig.json && NODE_PATH=dist babel-node unit-test",
-    "postinstall": "tsc"
+    "test": "tslint --project tsconfig.json && NODE_PATH=dist babel-node unit-test"
   },
   "author": "Roman Malieiev <aromaleev@gmail.com>",
   "license": "BSD-2-Clause",
@@ -34,6 +33,7 @@
     "babel-preset-node6": "11.x.x",
     "typescript": "2.x.x",
     "tslint": "4.x.x",
-    "jasmine": "2.x.x"
+    "jasmine": "^2.99.0",
+    "@types/jest": "^25.1.4"
   }
 }

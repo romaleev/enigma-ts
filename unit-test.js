@@ -1,10 +1,10 @@
 import Jasmine from 'jasmine';
 
-let jasmine = new Jasmine();
+const jasmine = new Jasmine();
 jasmine.loadConfig({
     spec_dir: 'tests',
     spec_files: [
-     '*.spec.js'
+     '*.spec.ts'
     ]
 });
 
