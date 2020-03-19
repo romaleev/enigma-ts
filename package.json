@@ -29,10 +29,10 @@
     "node": ">=6.x.x"
   },
   "devDependencies": {
-    "babel-cli": "6.x.x",
-    "babel-preset-node6": "11.x.x",
-    "typescript": "2.x.x",
-    "tslint": "4.x.x",
+    "babel-cli": "^6.26.0",
+    "babel-preset-node6": "^11.0.0",
+    "typescript": "^2.6.2",
+    "tslint": "^4.5.1",
     "jasmine": "^2.99.0",
     "@types/jest": "^25.1.4"
   }
